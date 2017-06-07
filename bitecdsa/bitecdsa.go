@@ -14,8 +14,8 @@ package bitecdsa
 //     http://www.secg.org/download/aid-780/sec1-v2.pdf
 
 import (
-	"big"
-	"bitelliptic"
+	"math/big"
+	"github.com/Golang-Koblitz-elliptic-curve-DSA-library/bitecdsa/bitelliptic"
 	"io"
 	"os"
 )
